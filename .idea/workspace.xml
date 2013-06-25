@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="821b334b-146f-4906-9f88-0044f8260d5c" name="Default" comment="" />
+    <list default="true" id="821b334b-146f-4906-9f88-0044f8260d5c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mrl/process/Progression.groovy" afterPath="$PROJECT_DIR$/src/com/mrl/process/Progression.groovy" />
+    </list>
     <ignored path="Progression.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Progression.groovy" changelist="821b334b-146f-4906-9f88-0044f8260d5c" time="1372123738917" ignored="false" />
+    <file path="/Progression.groovy" changelist="821b334b-146f-4906-9f88-0044f8260d5c" time="1372128851029" ignored="false" />
     <file path="/fragment.java" changelist="821b334b-146f-4906-9f88-0044f8260d5c" time="1372122550306" ignored="false" />
     <file path="/ProgressionTest.groovy" changelist="821b334b-146f-4906-9f88-0044f8260d5c" time="1372123220040" ignored="false" />
+    <file path="/Dummy.txt" changelist="821b334b-146f-4906-9f88-0044f8260d5c" time="1372125150973" ignored="false" />
+    <file path="/GroovyServerPage.txt.ft" changelist="821b334b-146f-4906-9f88-0044f8260d5c" time="1372128597420" ignored="false" />
+    <file path="/a.java" changelist="821b334b-146f-4906-9f88-0044f8260d5c" time="1372128332006" ignored="false" />
+    <file path="/AMD JavaScript File.txt.ft" changelist="821b334b-146f-4906-9f88-0044f8260d5c" time="1372128417044" ignored="false" />
+    <file path="/JavaScript File.txt.ft" changelist="821b334b-146f-4906-9f88-0044f8260d5c" time="1372128423500" ignored="false" />
+    <file path="/New Method Body.txt.ft" changelist="821b334b-146f-4906-9f88-0044f8260d5c" time="1372128533676" ignored="false" />
+    <file path="/Overridden Method Body.txt.ft" changelist="821b334b-146f-4906-9f88-0044f8260d5c" time="1372128542845" ignored="false" />
+    <file path="/Implemented Method Body.txt.ft" changelist="821b334b-146f-4906-9f88-0044f8260d5c" time="1372128557036" ignored="false" />
+    <file path="/Catch Statement Body.txt.ft" changelist="821b334b-146f-4906-9f88-0044f8260d5c" time="1372128565540" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +81,7 @@
       <file leaf-file-name="Progression.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mrl/process/Progression.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="84" selection-end="84" vertical-scroll-proportion="0.25211865">
+            <state line="50" column="45" selection-start="930" selection-end="930" vertical-scroll-proportion="0.7118644">
               <folding />
             </state>
           </provider>
@@ -94,6 +105,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -108,7 +127,35 @@
     <option name="width" value="1598" />
     <option name="height" value="918" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Scala: General</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -201,10 +248,12 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Spock" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="editing.templates" />
+    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="last_opened_file_path" value="C:/DevTools/Git/bin/git.exe" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -387,6 +436,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="821b334b-146f-4906-9f88-0044f8260d5c" name="Default" comment="" />
@@ -502,7 +568,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mrl/process/Progression.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="84" selection-end="84" vertical-scroll-proportion="0.25211865">
+        <state line="50" column="45" selection-start="930" selection-end="930" vertical-scroll-proportion="0.7118644">
           <folding />
         </state>
       </provider>

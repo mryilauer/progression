@@ -7,20 +7,61 @@ package com.mrl.process
  */
 
 interface ProgressStatus {Object[] args
-    ProgressStatus setState(ProgressState state)
-    ProgressState getState()
-    ProgressState nextState()
-}
-enum ProgressState {
-    unset, start, step1, aborted, done
-}
-class Progression {
-    def state
-    Progression(){
-        state = ProgressState.unset
-    }
+    def setState(state)
+    def getState()
+    def nextState()
+    def abort()
+    boolean isDone()
 }
 
+abstract class Progression implements ProgressStatus{
+    enum globalStates {unset, done, aborted}
+    def states
+    def state
+    Progression(states){
+        this.states = states
+        state = states.init()
+    }
+    def setState(state){
+        this.state = state
+        return state
+    }
+
+    @Override
+    abstract nextState()
+
+    @Override
+    abstract abort()
+
+    @Override
+    abstract boolean isDone()
+}
+class BaseProgression extends Progression {
+    enum states {start, stage1, stage2}
+    BaseProgression(){
+        super(states)
+    }
+
+    @Override
+    def nextState() {
+//        if (state >= states.start && state < states.stage2)
+//            state =
+        return null
+    }
+
+    @Override
+    def abort() {
+        return null
+    }
+
+    @Override
+    boolean isDone() {
+        return false
+    }
+
+
+
+}
 class AnyObject {
     def object
     def Progression progression
